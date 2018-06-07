@@ -11,8 +11,7 @@ let User = mongoose.model('User', {
         type:String,
         require:true,
         minlength:true,
-        trim:true,
-        unique:true
+        trim:true
     }
 })
 
